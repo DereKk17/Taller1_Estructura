@@ -3,7 +3,7 @@ package com.Taller1;
 public class App {
     public static void main(String[] args) {
         int[] array = {4, 4, 5, 6, 7, 8, 10, 111111, 24};
-        int[] array2 = {4, 4, 5, 6, 7, 8, 10, 111111, 24};
+        int[] array2 = {4, 4, 5, 6, 7, 8, 10, 1111, 24};
 
         System.out.println(Funciones.comparar(Funciones.crearArreglo(10),Funciones.crearArreglo(10)));
         System.out.println(Funciones.comparar(array, array2));

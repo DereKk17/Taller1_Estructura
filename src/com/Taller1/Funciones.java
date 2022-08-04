@@ -25,7 +25,7 @@ public class Funciones {
         if(i == 0){
             return true;
         }else
-            return arreglo[i] == arreglo2[i] && comparacionRecursiva(arreglo,arreglo2, i - 1);
+            return arreglo[i] == arreglo2[i] && comparacionRecursiva(arreglo,arreglo2, i -1);
     }
 
 }

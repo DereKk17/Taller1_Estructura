@@ -32,7 +32,7 @@ public class Funciones {
                     return a;
                 }
                 else{
-                    return a1[i];
+                    return i;
                 }
 
             }

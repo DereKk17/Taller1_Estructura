@@ -1,0 +1,18 @@
+package com.actividad3;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+
+        System.out.println(Funciones.creararreglo());
+        System.out.println(Funciones.comparar(a1,numbuscar));
+
+        System.out.println();
+        System.out.println(Funciones.creararreglo());
+        System.out.println(Funciones.comparacionRecursiva(a1,numbsucar,i));
+        }
+    }

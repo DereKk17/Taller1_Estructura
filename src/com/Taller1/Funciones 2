@@ -10,7 +10,7 @@ public class Funciones {
         Scanner elementos = new Scanner(System.in);
         int numelementos = elementos.nextInt();
 
-        System.out.println("Ingrese el numero que desea buscar en el irregular");
+        System.out.println("Ingrese el numero que desea buscar en el arreglo");
         Scanner numero = new Scanner(System.in);
         int numbuscar = numero.nextInt();
 

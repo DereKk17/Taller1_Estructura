@@ -1,0 +1,52 @@
+package com.actividad3;
+
+import java.util.Scanner;
+import java.util.Arrays;
+
+
+public class Funciones {
+    static int[] creararreglo() {
+        System.out.println("Ingrese el numero de elementos para el arreglo");
+        Scanner elementos = new Scanner(System.in);
+        int numelementos = elementos.nextInt();
+
+        System.out.println("Ingrese el numero que desea buscar en el irregular");
+        Scanner numero = new Scanner(System.in);
+        int numbuscar = numero.nextInt();
+
+        int a1[] = new int[numelementos];
+
+        for (int i; i <= a1; i++) {
+            a1[i] = (int) (Math.random() * (10 - (-10 + 1) + (-10)));
+        }
+        return a1;
+    }
+
+    static int comparar(int[]a1,int numbuscar,int numelementos) {
+
+
+            int a = 1;
+            for (int i = 0; i < numelementos; i++) {
+                if (a1[i] != numbuscar) {
+                    a = -1;
+                    return a;
+                }
+                else{
+                    return a1[i];
+                }
+
+            }
+    }
+        static int comparacionRecursiva(int[]a1,int numbuscar,int i){
+
+
+            if(numbuscar==a1[i] || i<0) {
+                return i;
+            } else{
+                return comparacionRecursiva(a1, numbuscar, i + 1);
+            }
+
+        }
+
+
+    }

@@ -40,9 +40,11 @@ public class Funciones {
         static int comparacionRecursiva(int[]a1,int numbuscar,int i){
 
 
-            if(numbuscar==a1[i] || i<0) {
+            if(numbuscar==a1[i]) {
                 return i;
-            } else{
+            } elseif(i<0){
+                return -1;
+            }else
                 return comparacionRecursiva(a1, numbuscar, i + 1);
             }
 
